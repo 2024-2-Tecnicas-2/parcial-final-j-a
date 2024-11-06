@@ -27,7 +27,7 @@ public class Perro extends Animal implements Domestico {
         return "El perro mueve la cola y ladra de felicidad";
     }
 
-    // Método para obtener el hábitat
+    
     public TipoHabitat obtenerHabitat() {
         return habitat;
     }
