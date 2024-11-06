@@ -1,4 +1,4 @@
-
+package logicaNegocio;
 
 public class Zoologico {
     public static void main(String[] args) {
