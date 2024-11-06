@@ -1,1 +1,27 @@
 
+
+public class Zoologico {
+    public static void main(String[] args) {
+        // Creación de objetos
+        Leon leon = new Leon();
+        Delfin delfin = new Delfin();
+        Perro perro = new Perro();
+
+        System.out.println("Leon:");
+        System.out.println("Sonido: " + leon.emitirSonido());
+        System.out.println("Dieta: " + leon.obtenerDieta());
+        System.out.println("Hábitat: " + leon.obtenerHabitat());
+
+        System.out.println("\nDelfin:");
+        System.out.println("Sonido: " + delfin.emitirSonido());
+        System.out.println("Dieta: " + delfin.obtenerDieta());
+        System.out.println("Hábitat: " + delfin.obtenerHabitat());
+
+        System.out.println("\nPerro:");
+        System.out.println("Sonido: " + perro.emitirSonido());
+        System.out.println("Dieta: " + perro.obtenerDieta());
+        System.out.println("Hábitat: " + perro.obtenerHabitat());
+        System.out.println("Interacción con humano: " + perro.interactuarConHumano());
+    }
+}
+
